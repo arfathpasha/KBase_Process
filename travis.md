@@ -37,9 +37,9 @@ Steps:
    echo 'cp -R /kb/module/lib/[YOUR_MODULE_NAME]/ /kb/module/work/kb/module/lib/' >> $(TEST_DIR)/$(TEST_SCRIPT_NAME) 
 </pre>
 
-6) run ```make all``` to update test scripts.
+6) Run ```make all``` to update test scripts.
 
-7) run ```kb-sdk test``` to check if coverage output is being displayed in stdout. The end of the output should look something like the output below. Note only kb_ballgown implementation files are being reported on. 
+7) Run ```kb-sdk test``` to check if coverage output is being displayed in stdout. The end of the output should look something like the output below. Note only kb_ballgown implementation files are being reported on. 
 <pre>
 Name                                               Stmts   Miss  Cover   Missing
     --------------------------------------------------------------------------------
