@@ -73,7 +73,7 @@ master:  [![Build Status](https://travis-ci.org/[YOUR_GITHUB_NAME]/[YOUR_MODULE_
 Q&A:
 ----
 1) <b>Q</b>: Why use travis? <br>
-   Your software will almost always depend on other software. When these dependencies change, they can cause a cascading effect that breaks your software. With nightly builds setup through travis, you will be notified with 24 hours of a change that broke your software. It is much easier to fix the break right when it occurs than it is to fix it weeks or months after the break occurs. 
+   Your software will almost always depend on other software. When these dependencies change, they can cause a cascading effect that breaks your software. With nightly builds setup through travis, you will be notified within 24 hours of a change that broke your software. It is much easier to fix the break right when it occurs than it is to fix weeks or months after the break occurs. 
  
  2) <b>Q</b>: Why use coveralls? <br>
     Stakeholders can get a quick idea of how reliable and maintainable a piece of software is from the coverage report. 
