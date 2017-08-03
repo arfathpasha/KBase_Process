@@ -1,4 +1,4 @@
-Adding Travis and Coveralls Coverage to your KBase Apps (2 hours):
+Adding Travis and Coveralls coverage to your KBase Apps (2 hours):
 -------------------------------------------------------------------
 Prerequisites: <br>
 
@@ -22,7 +22,8 @@ Steps:
       * Make sure to add [YOUR_TOKEN_HERE] in the instruction above.
       * *Ideally*, you should use a long living service token. If you do not have one, then use your existing auth token and then create a ticket for a sys admin to redo this step for you with a service token. If you are using a service token, be aware of [these guidelines](/service_token.md).
    * Find-replace-all "kb_ballgown" with your module name.
-   * You must start with getting travis to clone from your personal repo while you are setting it all up. So change the line "git clone https://github.com/kbaseapps/[YOUR_MODULE_NAME].git" to "git clone https://github.com/[YOUR_GITHUB_NAME]/[YOUR_MODULE_NAME].git"
+   * You must start with getting travis to clone from your personal repo while you are setting it all up. So change the line, <br>"git clone https://github.com/kbaseapps/[YOUR_MODULE_NAME].git" to 
+<br>"git clone https://github.com/[YOUR_GITHUB_NAME]/[YOUR_MODULE_NAME].git"
    
 4) Copy-paste this [normative .coveragerc file](https://github.com/arfathpasha/kb_ballgown/blob/master/.coveragerc) into your module's root dir and make the following changes.
    * Find-replace-all "kb_ballgown" with your module name.
