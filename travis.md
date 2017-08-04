@@ -56,7 +56,7 @@ Name                                               Stmts   Miss  Cover   Missing
 
 9) Turn on your module's repo in coveralls from the url https://coveralls.io/repos/new. If your repo name does not show up, click on the "sync repos" link on the top right. 
 
-10) Add the following markdown for the badges at the top of your module's README.md file. Make sure to replace the strings "<YOUR_GITHUB_NAME>" and "<YOUR_MODULE_NAME>" with your github and module's name.
+10) Add the following markdown for the badges at the top of your module's README.md file. Make sure to replace the strings "[YOUR_GITHUB_NAME]" and "[YOUR_MODULE_NAME]" with your github and module's name.
 
 <pre>
 Build status:<br>
