@@ -68,7 +68,7 @@ master:  [![Build Status](https://travis-ci.org/[YOUR_GITHUB_NAME]/[YOUR_MODULE_
 
 12) To set up nightly builds, go to https://travis-ci.org/[YOUR_GITHUB_NAME]/[YOUR_MODULE_NAME]. Make sure to replace the strings [YOUR_GITHUB_NAME] and [YOUR_MODULE_NAME] in the URL. Follow the link "More Options"->"Settings" on the top right. Add a cron job to run daily.
 
-13) Once you have it all set up and working through your forked repo, you may change the ``` git clone``` line in your .travis.yml file to clone your module from the "kbaseapps" github account instead of your personal account. Then make a commit, push and create a pull request. Once your changes have been merged to "kbaseapps", your CI test setup will begin testing the upstream "kbaseapps" repo each time a new revision is created and when the nightly build is triggered.  
+13) Once you have it all set up and working through your forked repo, you may change the ``` git clone``` line in your .travis.yml file to clone your module from the "kbaseapps" github account instead of your personal account. You also need to run ```travis encrypt TEST_TOKEN="[YOUR_TOKEN_HERE]" --add``` again under kbaseapps/your_module repo to update Travis source. Then make a commit, push and create a pull request. Once your changes have been merged to "kbaseapps", your CI test setup will begin testing the upstream "kbaseapps" repo each time a new revision is created and when the nightly build is triggered.  
 
 
 Q&A:
