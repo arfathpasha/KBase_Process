@@ -23,7 +23,7 @@ Checklist for developing KBase Apps:
 
 11.  Make sure all unit test data is local to the module
 
-12.  Set up a (travis build)[/travis.md] for the app
+12.  Set up a [travis build](/travis.md) for the app
 
 13. Make sure your code has at least 85% unit test coverage
 
