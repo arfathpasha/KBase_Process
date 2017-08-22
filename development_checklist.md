@@ -45,7 +45,7 @@ Checklist for developing KBase Apps:
 
 22. Before making a PR, check upstream repo for additional commits since some time may have elapsed since your initial fetch. If present, fetch, merge, retest against upstream commits.
 
-23. [Squash commits](https://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit) before making a PR to make the PR easier to review
+23. If your branch has a [messy commit history](https://github.com/blog/2141-squash-your-commits), you may wish to [squash commits](https://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit) before making a PR to make the PR easier to review
 
 24. Add Jira ticket number to PR title
 
