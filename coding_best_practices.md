@@ -1,5 +1,6 @@
 Python:
 -------
+1. Run flake8 linter https://github.com/kbase/project_guides/blob/master/RecommendedEditors.md.
 
 Java:
 -----
