@@ -29,7 +29,7 @@ Checklist for developing KBase Apps:
 
 14. Make sure your code has at least 85% unit test coverage.
 
-15. Run flake8 linter https://github.com/kbase/project_guides/blob/master/RecommendedEditors.md.
+15. Apply [coding best practices](/coding_best_practices.md).
 
 16. Add UI narrative interface metadata (if required) in ui/narrative/methods dir.
 
