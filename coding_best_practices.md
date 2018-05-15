@@ -16,7 +16,7 @@ Java:
   </br><ul>- Code lines are within the 100 char limit.</ul>
   </br><ul>- methods are within the 150 line limit. </ul>
 10 Remove unused import statements and other unused code. 
-11. Ensure that the right set of exceptions are caught and no high level exceptions that case a broad net are being used.
+11. Ensure that the right set of exceptions are caught and no high level exceptions that cast a broad net are being used.
 12. Typos in documentation.
 13. Check for DRY.
 14. Use final for all vars to ensure 100% immutability.
